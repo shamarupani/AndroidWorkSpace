@@ -1,0 +1,72 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@shamarupani 
+shamarupani
+/
+Module-2
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Module-2/Practice/OperatorEx
+@shamarupani
+shamarupani Create OperatorEx
+Latest commit 818d3dc 24 minutes ago
+ History
+ 1 contributor
+43 lines (38 sloc)  828 Bytes
+
+package a217;
+
+import java.util.Scanner;
+
+public class OperatorEx
+{
+public static void main(String[] args)
+{
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("Enter first number: ");
+	int a=sc.nextInt();
+	
+	System.out.println("Enter second number: ");
+	int b=sc.nextInt();
+	
+	System.out.println("Enter choice \n 1. Addition \n 2. Substraction \n 3. Multiplication \n 4. Division");
+	int choice=sc.nextInt();
+	int c=0;
+	switch(choice)
+	{
+	case 1: 
+			c=a+b;
+			System.out.println("Your Addition is "+c);
+			break;
+	case 2: 
+			c=a-b;
+			System.out.println("Your Substraction is "+c);
+			break;
+	case 3: 
+			c=a*b;
+			System.out.println("Your Multiplication is "+c);
+			break;
+	case 4: 
+			c=a/b;
+			System.out.println("Your Division is "+c);
+			break;
+	default:
+			System.out.println("Invalid input");
+			break;	
+	}
+}
+}
