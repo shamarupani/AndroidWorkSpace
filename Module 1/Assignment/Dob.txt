@@ -1,0 +1,9 @@
+
+public class Dob {
+public static void main(String[] args) {
+	System.out.println("Name: Shama");
+	System.out.println("Date of Birth: 01.12.1992");
+	System.out.println("Age: 29");
+	System.out.println("Address: Nilkanth Park");
+}
+}
