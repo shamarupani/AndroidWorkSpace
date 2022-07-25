@@ -1,0 +1,65 @@
+package a217;
+
+import java.util.Scanner;
+
+class Account
+{	
+	String name;
+	double acc_number,amount;
+	
+	void account()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Name");
+		name=sc.next();
+		System.out.println("Enter account number");
+		acc_number=sc.nextDouble();
+		System.out.println("Enter amount");
+		amount=sc.nextDouble();
+		System.out.println("Enter category");
+		boolean category=sc.nextBoolean();
+		//true--> staff
+		//false--> other		
+		if (category == true)
+		{
+			System.out.println("Staff");
+			System.out.println("You have got a discount offer");
+		}
+		else{
+			System.out.println(amount +"amount to be paid");
+		}
+		}
+}
+
+
+class Staff extends Account
+{
+	
+	void staff()
+	{
+		
+	}
+}
+
+class Other extends Account
+{
+
+	void other()
+	{
+
+	}
+}
+public class HierarchicalEx
+{
+	public static void main(String[] args) 
+	{
+		Staff s1=new Staff();
+		Other o1=new Other();
+		s1.account();				
+		s1.staff();
+		
+		
+	}
+	
+}
+
