@@ -1,5 +1,29 @@
 Topic – OOPS Fundamentals
 
 B1. What Is class in Object Oriented Programming Language ?
+
 A class is a user-defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type. Using classes, you can create multiple objects with the same behavior instead of writing their code multiple times.
-  
+
+B2 What is an Object in Object Oriented Programming Language ?
+
+A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes.
+
+B3 What Is Difference Between Class And Interface ?
+
+A class can be instantiated	but an interface can never be instantiated.
+The class keyword is used to declare the class and the interface keyword is used to declare interface.
+The members of a class can be declared as private, public or protected but the members of an interface are always declared as public.
+Class contains the concrete methods i.e methods with body while interface	contains abstract method i.e methods without the body.
+The extends keyword is used to inherit a class but the implements keyword is used to use an interface.
+Class can contain final and static methods while interface cannot contain final or static methods.
+A Java class can have constructors but an interface cannot have constructors.
+
+B4 What Is Method Overloading in Object Oriented Programming Language?
+
+Method overloading is a form of polymorphism in OOP. Polymorphism allows objects or methods to act in different ways, according to the means in which they are used. One such manner in which the methods behave according to their argument types and number of arguments is method overloading.
+If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.Overloading happens when you have two methods with the same name but different signatures (or arguments). In a class we can implement two or more methods with the same name. Overloaded methods are differentiated based on the number and type of parameter passed as arguments to the methods. If we try to define more than one method with the same name and the same number of arguments then the compiler will throw an error.
+The advantage of method overloading is that it increases code readability and maintainability. Although it is possible to have methods with the same name that perform a totally different function, it is advised that overloaded methods must have similarities in the way they perform.
+
+B5 What Is Data hiding in Object Oriented Programming Language ?
+
+Data encapsulation, also known as data hiding, is the mechanism whereby the implementation details of a class are kept hidden from the user.
