@@ -1,3 +1,9 @@
+/*
+B26. W.A.J. P to demonstrate try catch block, Take two numbers from the user and perform the
+division operation and handle Arithmetic Exception.
+
+*/
+
 package task128;
 
 import java.util.Scanner;
