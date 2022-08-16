@@ -1,0 +1,26 @@
+package sha.a207;
+
+import java.util.Scanner;
+
+public class SumPercentage {
+public static void main(String[] args) {
+	float maths,english,hindi,gujarati,science;
+	double sum,percentage;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter marks of Maths: ");
+	 maths=sc.nextFloat();
+	System.out.println("Enter marks of English: ");
+	english=sc.nextFloat();
+	System.out.println("Enter marks of Hindi: ");
+	hindi=sc.nextFloat();
+	System.out.println("Enter marks of Gujarati ");
+	 gujarati=sc.nextFloat();
+	System.out.println("Enter marks of Science: ");
+	 science=sc.nextFloat();
+	
+	sum=maths+english+hindi+gujarati+science;
+	percentage=(sum/500)*100;
+	System.out.println("Sum of 5 subjects is " + sum);
+	System.out.println("Percentage of 5 subjects is " + percentage);
+}
+}
