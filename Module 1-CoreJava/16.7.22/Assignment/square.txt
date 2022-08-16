@@ -1,0 +1,12 @@
+
+
+public class Square {
+public static void main(String[] args) {
+	int num,square,cube;
+	num=5;
+	square=num*num;
+	cube=num*num*num;
+	System.out.println("Square of " + num + " is " + square);
+	System.out.println("Cube of "+ num + " is " + cube);
+}
+}

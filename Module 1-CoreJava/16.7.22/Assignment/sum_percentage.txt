@@ -1,0 +1,17 @@
+
+
+public class Sum_Percentage {
+public static void main(String[] args) {
+	int maths,english,science,hindi,gujarati;
+	double sum,percentage;
+	maths =50;
+	english =70;
+	science= 67;
+	hindi=78;
+	gujarati=80;
+	sum=maths+english+hindi+gujarati+science;
+	percentage=(sum/500)*100;
+	System.out.println("Sum of 5 subjects is " + sum);
+	System.out.println("Percentage of 5 subjects is " + percentage);
+}
+}

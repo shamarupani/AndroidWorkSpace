@@ -1,0 +1,11 @@
+
+
+public class Triangle {
+public static void main(String[] args) {
+	int base =4;
+	int height= 5;
+	double area;
+	area= 0.5 *base*height;
+	System.out.println("Area of a Triangle is: " + area);
+}
+}
