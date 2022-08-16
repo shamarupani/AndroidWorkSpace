@@ -1,0 +1,24 @@
+package a217;
+
+public class ObjectEx
+{
+	//member declaration
+	int id;
+	String name;
+	
+	public static void main(String[] args) 
+	{
+		//Syntax: 	classname objectname=new classname;
+		//object creation
+		
+		//single line comment
+		/* multi line comment */
+		
+		ObjectEx o1=new ObjectEx();
+		o1.id=1;
+		o1.name="Shama";
+		
+		System.out.println(o1.id +" "+o1.name);
+		
+	}
+}
