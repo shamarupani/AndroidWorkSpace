@@ -1,0 +1,10 @@
+
+
+public class Temperature1 {
+public static void main(String[] args) {
+	double celcius= 5.50;
+	double farenheit;
+	farenheit=(celcius* 9/5) + 32;
+	System.out.println("Temperature from Celcius to Farenheit is: "+ farenheit);
+}
+}
