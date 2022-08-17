@@ -1,0 +1,14 @@
+package a.a227;
+
+public class Encapsulation
+{
+	public static void main(String[] args)
+	{
+		Model m=new Model();
+		m.setName("Shama");
+		m.setCity("Rajkot");
+		m.setAddress("nilkanth park");
+		
+		System.out.println(m.getName()+" from "+ m.getAddress()+ " " +m.getCity());
+	}
+}

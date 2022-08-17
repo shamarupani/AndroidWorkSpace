@@ -1,0 +1,27 @@
+package a.a227;
+
+public class Parameter
+{
+	int id;
+	String name;
+	
+	public Parameter(int i,String n)  //parameterized constructor
+	{
+		id=i; //set values from right to left
+		name=n;
+	}
+	void display()		//method
+	{
+		System.out.println(id+ " "+name);
+		
+	}
+	public static void main(String[] args)
+	{
+		Parameter p1=new Parameter(101,"Shama");  //object creation
+		Parameter p2=new Parameter(102,"Yasin");
+		
+		p1.display(); //call method
+		p2.display();
+	}
+	
+}
