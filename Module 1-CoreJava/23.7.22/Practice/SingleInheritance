@@ -1,0 +1,28 @@
+package sha.ma237;
+
+class A
+{
+	void data()
+	{
+		System.out.println("data accessed");
+	}
+}
+
+class B extends A
+{
+
+	void data1()
+	{
+		System.out.println("data1 accessed");
+	}
+	
+}
+
+public class SingleInheritance 
+{
+
+	public static void main(String[] args) 
+	{
+		B b1=new B();
+		b1.data();
+		b1.data1();

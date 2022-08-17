@@ -1,0 +1,36 @@
+package sha.ma237;
+
+class Bank
+{
+	void bank()
+	{
+		System.out.println("Bank details");
+	}
+}
+class Current extends Bank
+{
+	void current()
+	{
+		System.out.println("current account");
+	}
+}
+class Saving extends Bank
+{
+	void saving()
+	{
+		System.out.println("saving account");
+	}
+}
+
+public class Hierarchical 
+{
+	public static void main(String[] args) 
+	{
+		Current c=new Current();
+		Saving s=new Saving();
+		c.bank();
+		c.current();
+		s.saving();
+		s.bank();
+	}
+}
