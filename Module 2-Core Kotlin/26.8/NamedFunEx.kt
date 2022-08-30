@@ -1,6 +1,7 @@
 fun add(a:Int,b:Int)
 {
-	
+	var add=a+b
+	println(add)
 }
 
 fun main()
