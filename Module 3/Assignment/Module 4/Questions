@@ -1,0 +1,34 @@
+Module -4) Android UI Development 
+ Create an application to take input number from user and print its reverse 
+number in TextView without button. 
+ Create an application to input 2 numbers from user and all numbers 
+between those 2 numbers in next activity 
+ Create an application with radio buttons (Add, Subtraction, Multiply, 
+Division) EditText (number1, number2) and print result as per user choice 
+from radio button in TextView 
+ Write a code to display login form when click on login button and 
+registration form when click on registration button on single activity using 
+fragment 
+ Create an application to load google url into webview also manage forward 
+and backward redirect 
+ In Previous Practical write code to check weather internet connection is 
+available or not if 
+ no internet connection then display message accordingly 
+ create an application to hide TextView when first button click and show 
+when second button click 
+ Create an application to add TextView in TableLayout Programmatically 
+ create an application to open pdf using implicit intent 
+ create an application to increate font size when plus button click and 
+decrease when minus button click 
+ create an application to display n edittext where n is number input by user 
+ Create an application to display Textview when checkbox is checked and 
+hide otherwise A6 Write a program to show four images around Textview. 
+ Write a program to create one string array in string.xml file and that array 
+show in listview 
+ Write a program in android display screen color which the Color will be 
+select from the radio button. 
+ Write a program you have taken three seek bar controls. From three Seekbar 
+which Seek bar value changed the background color of device will be 
+changed. 
+ Create custom toolbar as per given below design 
+ Create toolbar with spinner and search functionality
