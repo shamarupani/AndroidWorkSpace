@@ -1,2 +1,0 @@
-Each Fragment instance has its own lifecycle. When a user navigates and interacts with your app, your fragments transition through various states
-in their lifecycle as they are added, removed, and enter or exit the screen.

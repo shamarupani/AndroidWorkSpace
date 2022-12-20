@@ -1,7 +1,0 @@
-It is a auto-generated file, which have pointer to all resources used in the application.
-
-All resources located in res folder are mostly .xml files, which will not be understood by java compiler.
-So aapt (android application packaging tool) will convert xml files and other resources into java file,
-which has identification numbers (pointers) to all those resources. If we want to access any resource 
-from the code, then we can access through this R.java file.
-Full form is Resource.java file.
