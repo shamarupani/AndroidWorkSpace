@@ -1,0 +1,82 @@
+Topic – OOPS Fundamentals
+
+B1. What Is class in Object Oriented Programming Language ?
+
+A class is a user-defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type. Using classes, you can create multiple objects with the same behavior instead of writing their code multiple times.
+
+
+B2 What is an Object in Object Oriented Programming Language ?
+
+A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created at runtime from templates, which are also known as classes.
+
+
+B3 What Is Difference Between Class And Interface ?
+
+A class can be instantiated	but an interface can never be instantiated.
+The class keyword is used to declare the class and the interface keyword is used to declare interface.
+The members of a class can be declared as private, public or protected but the members of an interface are always declared as public.
+Class contains the concrete methods i.e methods with body while interface	contains abstract method i.e methods without the body.
+The extends keyword is used to inherit a class but the implements keyword is used to use an interface.
+Class can contain final and static methods while interface cannot contain final or static methods.
+A Java class can have constructors but an interface cannot have constructors.
+
+
+B4 What Is Method Overloading in Object Oriented Programming Language?
+
+Method overloading is a form of polymorphism in OOP. Polymorphism allows objects or methods to act in different ways, according to the means in which they are used. One such manner in which the methods behave according to their argument types and number of arguments is method overloading.
+If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.Overloading happens when you have two methods with the same name but different signatures (or arguments). In a class we can implement two or more methods with the same name. Overloaded methods are differentiated based on the number and type of parameter passed as arguments to the methods. If we try to define more than one method with the same name and the same number of arguments then the compiler will throw an error.
+The advantage of method overloading is that it increases code readability and maintainability. Although it is possible to have methods with the same name that perform a totally different function, it is advised that overloaded methods must have similarities in the way they perform.
+
+
+B8 What is Constructor in Object Oriented Programming ?
+
+In OOP(Object-oriented programming) constructor is a special method. It is called whenever you create an object using new keyword. Constructor enables an object to initialize itself at the time of its creation without the need to make a separate call to the instance method. It looks like a method but it is different from the method in two ways as follow
+A constructor always has the same name as the class whose instance members they initialize.
+It also does not have a return type and not even void like methods. It causes the compiler to automatically call the constructor whenever an object of the class is created.
+There are two types of Constructor: Default Constructor and Parameterized Constructor.
+Default Constructor:
+Whenever we create an object, a constructor is invoked. In case we did not create any constructor, the compiler will automatically write one for us. This constructor known as default constructor. It does not have any parameters and any statement in its body. The main aim of default constructor is to enable you to create an object of a class type. When the compiler create a default constructor, It does nothing. The objects created the default constructor will have fields with their default values.
+Parameterized Constructor:
+Unlike default constructor, parameterized constructor have one or more parameters. This type of constructor, it is possible to initialize objects with different set of values at the time of creation. These different set of value initialized to objects must pass as an arguments when the constructor is invoked. The list of parameter can be specified in the parentheses in the same way as parameters are specified in the methods.
+
+
+B10 What is Final Keyword in Object Oriented Programming?
+
+In the Java programming language, the final keyword is used in several contexts to define an entity that can only be assigned once. Once a final variable has been assigned, it always contains the same value.
+The following are different contexts where final is used:
+final variable.
+final class.
+final method.
+
+
+B16 What is Overriding in Object Oriented Programming?
+
+Overriding is when a child class has its method implementation for the method already present in the parent class.
+Technically, overriding is a function that requires a subclass or child class to provide a variety of method implementations, that are already provided by one of its superclasses or parent classes, in any object-oriented programming language. 
+When a method in a subclass has the same name and signature as in its super-class, the subclass is originated from the super-class. 
+One of the ways that Java manages Run Time Polymorphism is by method overriding. 
+
+
+A1 Write a Programme to create a Class in OOPS ?
+
+class Bicycle {
+
+  // state or field
+   int gear = 5;
+
+  // behavior or method
+   void braking() {
+    System.out.println("Working of Braking");
+  }
+}
+
+
+A2 Write a Programme to Create a Object in OOPS ?
+
+className object = new className();
+
+// for Bicycle class
+Bicycle sportsBicycle = new Bicycle();
+Bicycle touringBicycle = new Bicycle();
+
+
