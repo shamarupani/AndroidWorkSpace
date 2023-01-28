@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#CDDC39"
+    android:layout_margin="25dp"
+    app:cardCornerRadius="20dp">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFEB3B"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="16dp"
+        android:background="#D8C940"
+        android:gravity="start|top"
+        android:hint="Enter your note details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabview"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+      android:layout_marginRight="70dp"
+        android:onClick="save button"
+        android:src="@drawable/ic_baseline_save_24"
+        android:layout_alignParentRight="true"
+        tools:ignore="OnClick" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fab"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+        android:layout_margin="3dp"
+    android:onClick="save button"
+    android:src="@drawable/ic_baseline_save_24"
+    android:layout_alignParentRight="true"
+    tools:ignore="OnClick" />
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/"
+        android:layout_toStartOf="@+id/fab"
+        android:weightSum="3"
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/fab"
+        >
+    <Button
+        android:id="@+id/btndecrease"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="-"
+    android:textSize="18dp"
+        android:backgroundTint="#3F51B5"
+    android:textStyle="bold"
+    android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18dp"
+           android:id="@+id/textsize"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="18dp"
+            android:backgroundTint="#3F51B5"
+            android:textStyle="bold"
+            android:id="@+id/btnincrease"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>-->
+   <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ll"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+
+       <Button
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+            android:id="@+id/btnunderline"
+           android:text="U"
+           android:layout_margin="3dp"
+           android:backgroundTint="#3F51B5"
+           android:layout_weight="1"
+           android:textStyle="bold"
+           android:textSize="18dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnbold"
+            android:text="B"
+            android:backgroundTint="#3F51B5"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnitalic"
+            android:text="I"
+            android:layout_margin="3dp"
+            android:backgroundTint="#3F51B5"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    -->
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
