@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#C8C4C4"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abcd"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abcd"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abcd"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abcd"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
