@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maptype_none"
+        android:textSize="14dp"
+        android:onClick="chooseMaptype"
+        android:text="None"/>
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maptype_normal"
+        android:textSize="14dp"
+        android:onClick="chooseMaptype"
+        android:text="Normal"/>
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maptype_hybrid"
+        android:textSize="14dp"
+        android:onClick="chooseMaptype"
+        android:text="Hybrid"/>
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maptype_satellite"
+        android:textSize="14dp"
+        android:onClick="chooseMaptype"
+        android:text="Satellite"/>
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maptype_terrain"
+        android:textSize="14dp"
+        android:onClick="chooseMaptype"
+        android:text="Terrain"/>
+</LinearLayout>
